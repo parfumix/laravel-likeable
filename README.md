@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Laravel Likeable Plugin
 ============
 
@@ -57,3 +58,6 @@ php artisan migrate
 #### Credits
 
  - Robert Conner - http://smartersoftware.net
+=======
+# laravel-likeable
+>>>>>>> 5081151fb6667407aa9b99020100e1e7670c0b30
