@@ -1,6 +1,6 @@
 <?php
 
-namespace Conner\Likeable;
+namespace Parfumix\Likeable;
 
 trait LikeableTrait {
 

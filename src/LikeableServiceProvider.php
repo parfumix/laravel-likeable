@@ -1,4 +1,4 @@
-<?php namespace Conner\Likeable;
+<?php namespace Parfumix\Likeable;
 
 use Illuminate\Support\ServiceProvider;
 
