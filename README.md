@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Laravel Likeable Plugin
 ============
 
@@ -54,10 +53,3 @@ php artisan migrate
 	Article::whereLiked($myUserId) // find only articles where user liked them
 		->with('likeCounter') // highly suggested to allow eager load
 		->get();
-
-#### Credits
-
- - Robert Conner - http://smartersoftware.net
-=======
-# laravel-likeable
->>>>>>> 5081151fb6667407aa9b99020100e1e7670c0b30
