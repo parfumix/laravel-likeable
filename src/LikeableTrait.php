@@ -28,7 +28,7 @@ trait LikeableTrait {
      * Collection of the likes on this record
      */
     public function likes() {
-        return $this->morphMany('\Conner\Likeable\Like', 'likable');
+        return $this->morphMany(Like::class, 'likable');
     }
 
     /**
@@ -36,7 +36,7 @@ trait LikeableTrait {
      * morphed record
      */
     public function likeCounter() {
-        return $this->morphOne('\Conner\Likeable\LikeCounter', 'likable');
+        return $this->morphOne(LikeCounter::class, 'likable');
     }
 
     /**
